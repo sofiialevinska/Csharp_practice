@@ -50,15 +50,15 @@ namespace hw4
 
             if (diff >= 0)
             {
-                Console.WriteLine("The difference in days between dates is {0} days", diff);
+                Console.WriteLine("The difference between dates in days is {0} days", diff);
             }
             else
             {
-                Console.WriteLine("The birth day is in the future. The difference in days between dates is 0 days");
+                Console.WriteLine("The birth day is in the future. The difference between dates in days is zero days");
             }
         }
 
-        private static void Age (DateTime date1, DateTime date2)
+        private static void Age(DateTime date1, DateTime date2)
         {
             int day1 = date1.Day;
             int month1 = date1.Month;
@@ -76,37 +76,37 @@ namespace hw4
 
             if (month2 > month1)
             {
-                ageMonth = month2-month1;
+                ageMonth = month2 - month1;
             }
 
             if (month2 < month1)
             {
-                ageYear --;
+                ageYear--;
                 ageMonth = month1 - month2;
             }
 
-            if (day2>day1)
+            if (day2 > day1)
             {
                 ageDay = day2 - day1;
             }
 
-            if (day1>day2)
+            if (day1 > day2)
             {
                 ageDay = day1 - day2;
             }
 
             if (date2 >= date1)
             {
-                Console.WriteLine("The difference dates is {0} years, {1} month, {2} days", ageYear, ageMonth, ageDay);
+                Console.WriteLine("The difference between dates is {0} years, {1} month, {2} days", ageYear, ageMonth, ageDay);
             }
             else
             {
-                Console.WriteLine("The birth day is in the future. The difference dates is {0} years, {1} month, {2} days", ageYear, ageMonth, ageDay);
+                Console.WriteLine("The birth day is in the future. The difference between dates is {0} years, {1} month, {2} days", ageYear, ageMonth, ageDay);
             }
 
         }
 
-            private static Boolean IsLeapYear(int year)
+        private static Boolean IsLeapYear(int year)
         {
             Boolean isLeapYear = false;
             if (year % 4 == 0)
