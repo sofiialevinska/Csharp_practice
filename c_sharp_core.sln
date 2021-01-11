@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "c_sharp_core_ppt5_hw2", "c_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "c_sharp_core_ppt6_task_hw", "c_sharp_core_ppt6_task_hw\c_sharp_core_ppt6_task_hw.csproj", "{2F2DBBB7-3C43-418C-9429-54194CD7EBB6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "c_sharp_core_ppt1-3_tasks_hw", "c_sharp_core_ppt1-3_tasks_hw\c_sharp_core_ppt1-3_tasks_hw.csproj", "{7FA3B0A3-E0ED-4858-A238-B4C95B51BED6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{2F2DBBB7-3C43-418C-9429-54194CD7EBB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2F2DBBB7-3C43-418C-9429-54194CD7EBB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2F2DBBB7-3C43-418C-9429-54194CD7EBB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FA3B0A3-E0ED-4858-A238-B4C95B51BED6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FA3B0A3-E0ED-4858-A238-B4C95B51BED6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FA3B0A3-E0ED-4858-A238-B4C95B51BED6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FA3B0A3-E0ED-4858-A238-B4C95B51BED6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
