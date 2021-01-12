@@ -1,0 +1,9 @@
+.NET
+
+працює на Microsoft Windows. для розробки додатків Windows, Web та Enterprise
+
+Framework Class Library (FCL) - classes library. There is interoperability with other programming languages.
+Common Language Runtime (CLR) - virtual machine for executing .NET programs. надає послуги, такі як безпека, керування пам'яттю та обробка виключень. 
+More text More text More text
+
+WriteAllText WriteAllText WriteAllText5678 Five Six Seven Eight
