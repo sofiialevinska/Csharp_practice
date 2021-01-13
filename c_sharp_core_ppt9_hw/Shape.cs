@@ -1,17 +1,19 @@
 ﻿using System;
-namespace c_sharp_core_ppt8_hw
+namespace c_sharp_core_ppt9_hw
 {
     public abstract class Shape : IComparable
     {
         private string name;
-        protected string Name { get { return name; } }
+        public string Name { get { return name; } }
         public Shape()
         {
         }
+
         public Shape(string name)
         {
             this.name = name;
         }
+
         public abstract double Area();
         public abstract double Perimeter();
 

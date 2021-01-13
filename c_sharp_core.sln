@@ -27,6 +27,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "c_sharp_core_ppt8_task", "c
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "c_sharp_core_ppt8_hw", "c_sharp_core_ppt8_hw\c_sharp_core_ppt8_hw.csproj", "{A2A11AB7-0E3D-49C9-A596-A7870A7D7A14}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "c_sharp_core_ppt9_task", "c_sharp_core_ppt9_task\c_sharp_core_ppt9_task.csproj", "{4A21328E-9A68-4FE6-9736-0E8F186C1DE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "c_sharp_core_ppt9_hw", "c_sharp_core_ppt9_hw\c_sharp_core_ppt9_hw.csproj", "{8F1DF710-C9FC-4AEB-88F8-14F263C497B1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +85,14 @@ Global
 		{A2A11AB7-0E3D-49C9-A596-A7870A7D7A14}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A2A11AB7-0E3D-49C9-A596-A7870A7D7A14}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A2A11AB7-0E3D-49C9-A596-A7870A7D7A14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A21328E-9A68-4FE6-9736-0E8F186C1DE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A21328E-9A68-4FE6-9736-0E8F186C1DE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A21328E-9A68-4FE6-9736-0E8F186C1DE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A21328E-9A68-4FE6-9736-0E8F186C1DE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F1DF710-C9FC-4AEB-88F8-14F263C497B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F1DF710-C9FC-4AEB-88F8-14F263C497B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F1DF710-C9FC-4AEB-88F8-14F263C497B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F1DF710-C9FC-4AEB-88F8-14F263C497B1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

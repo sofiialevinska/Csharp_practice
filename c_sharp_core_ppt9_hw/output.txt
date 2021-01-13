@@ -1,0 +1,11 @@
+
+Shapes with area from range [10,100]:
+
+Circle. Area is 28.26, Perimeter is 18.84
+Circle. Area is 78.50, Perimeter is 31.40
+Square. Area is 49.00, Perimeter is 28.00
+
+Shapes which name contains letter 'a':
+
+square4
+square3
