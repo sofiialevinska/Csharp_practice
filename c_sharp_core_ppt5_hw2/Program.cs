@@ -34,17 +34,17 @@ namespace c_sharp_core_ppt5_hw2
 
         static void Main(string[] args)
         {
-            Dictionary<uint, string> persons = new Dictionary<uint, string> ();
+            Dictionary<uint, string> persons = new Dictionary<uint, string>();
             int numberOfPersons = 7;
             Random rand = new Random();
-            for (int i=0; i<numberOfPersons; i++)
+            for (int i = 0; i < numberOfPersons; i++)
             {
-                persons.Add(Convert.ToUInt32(i+rand.Next(1,10000)), RandomString());
+                persons.Add(Convert.ToUInt32(i + rand.Next(1, 10000)), RandomString());
             }
 
             //Print all created persons
             Console.WriteLine("\nAll created persons:");
-            foreach (KeyValuePair<uint,string> person in persons)
+            foreach (KeyValuePair<uint, string> person in persons)
             {
                 Console.WriteLine("ID = {0}, Name = {1};", person.Key, person.Value);
             }

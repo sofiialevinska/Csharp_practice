@@ -31,9 +31,9 @@ namespace c_sharp_core_ppt8_hw
             PrintAll(shapes);
 
             //Find shape with the largest perimeter and print its name
-            double maxPerimeter =0;
+            double maxPerimeter = 0;
             int index = 0;
-            foreach(Shape shape in shapes)
+            foreach (Shape shape in shapes)
             {
                 if (shape.Perimeter() > maxPerimeter)
                 {

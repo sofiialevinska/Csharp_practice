@@ -4,7 +4,7 @@ namespace c_sharp_core_ppt6_task_hw
 {
     class Program
     {
-        private static void Div (int a, int b)
+        private static void Div(int a, int b)
         {
             if (b == 0)
             {
@@ -91,7 +91,7 @@ namespace c_sharp_core_ppt6_task_hw
                     Console.Write("end = ");
                     int end = Int32.Parse(Console.ReadLine());
                     int repeatMethod = 10;
-                    for (int i=0; i<repeatMethod; i++)
+                    for (int i = 0; i < repeatMethod; i++)
                     {
                         ReadNumber(start, end);
                     }

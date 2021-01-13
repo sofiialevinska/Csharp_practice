@@ -1,7 +1,7 @@
 ﻿using System;
 namespace c_sharp_core_ppt8_hw
 {
-    public abstract class Shape: IComparable
+    public abstract class Shape : IComparable
     {
         private string name;
         protected string Name { get { return name; } }

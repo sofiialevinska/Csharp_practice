@@ -6,7 +6,7 @@ namespace c_sharp_core_ppt8_task
 {
     class Program
     {
-        private static void PrintAllPeople (List <Person> people)
+        private static void PrintAllPeople(List<Person> people)
         {
             foreach (Person person in people)
             {
@@ -51,7 +51,7 @@ namespace c_sharp_core_ppt8_task
             //Create a list of Employees and move only workers there.
             IEnumerable<Person> employees =
                 from person in people
-                where ((person.GetType()== typeof(Staff)) || (person.GetType() == typeof(Teacher))
+                where ((person.GetType() == typeof(Staff)) || (person.GetType() == typeof(Teacher))
                 || (person.GetType() == typeof(Developer)))
                 orderby person.Salary
                 select person;

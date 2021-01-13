@@ -36,7 +36,7 @@ namespace c_sharp_core_ppt4_hw
         public Person(string name, int birthYear)
         {
             this.name = name;
-            this.birthYear = new DateTime (birthYear, DateTime.Now.Month, DateTime.Now.Day);
+            this.birthYear = new DateTime(birthYear, DateTime.Now.Month, DateTime.Now.Day);
             counter++;
             personsNumber = counter;
         }
@@ -65,13 +65,13 @@ namespace c_sharp_core_ppt4_hw
         //Overload the method ToString()
         public override string ToString()
         {
-            return (" name is " + Name + ", birthday year = " + BirthYear.Year + ", age = " + Age () + ";");
+            return (" name is " + Name + ", birthday year = " + BirthYear.Year + ", age = " + Age() + ";");
         }
 
         //method Output() - to output information about person(call ToString())
-        public void Output ()
+        public void Output()
         {
-            Console.WriteLine ("Person" + personsNumber + ToString());
+            Console.WriteLine("Person" + personsNumber + ToString());
         }
 
         //Overload the operator== (equal by name)

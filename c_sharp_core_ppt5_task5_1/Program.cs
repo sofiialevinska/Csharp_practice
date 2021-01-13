@@ -8,7 +8,7 @@ namespace c_sharp_core_ppt5_task5_1
         static void Main(string[] args)
         {
             //Create List of IFlyable objects and add some Birds and Planes to it.
-            List<IFlyable> flyingObjects = new List<IFlyable> ();
+            List<IFlyable> flyingObjects = new List<IFlyable>();
             flyingObjects.Add(new Bird());
             flyingObjects.Add(new Bird());
             flyingObjects.Add(new Bird());

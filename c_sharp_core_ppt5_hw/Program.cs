@@ -9,7 +9,7 @@ namespace c_sharp_core_ppt5_hw
         private static int numberOfDevelopers = 10;
         private static IDeveloper[] developers;
 
-        private static void Print ()
+        private static void Print()
         {
             for (int i = 0; i < numberOfDevelopers; i++)
             {

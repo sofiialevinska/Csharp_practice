@@ -1,10 +1,10 @@
 ﻿using System;
 namespace c_sharp_core_ppt8_task
 {
-    public class Developer: Staff
+    public class Developer : Staff
     {
         private string level;
-        public Developer(string name, string level, int salary): base (name, salary)
+        public Developer(string name, string level, int salary) : base(name, salary)
         {
             this.level = level;
         }

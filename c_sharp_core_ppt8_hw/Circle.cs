@@ -1,11 +1,11 @@
 ﻿using System;
 namespace c_sharp_core_ppt8_hw
 {
-    public class Circle:Shape
+    public class Circle : Shape
     {
         private double radius;
         private static readonly double PI = 3.14;
-        public Circle(string name, double radius) : base (name)
+        public Circle(string name, double radius) : base(name)
         {
             this.radius = radius;
         }

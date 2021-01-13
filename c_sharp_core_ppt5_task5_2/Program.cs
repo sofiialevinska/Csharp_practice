@@ -16,7 +16,7 @@ namespace c_sharp_core_ppt5_task5_2
             }
         }
 
-        private static bool Greater20 (int obj)
+        private static bool Greater20(int obj)
         {
             return obj > 20;
         }
@@ -33,7 +33,7 @@ namespace c_sharp_core_ppt5_task5_2
             //add 9 random integers to myColl
             Random rand = new Random();
             int numberOfElements = 10;
-            for (int i=0; i<numberOfElements-2; i++)
+            for (int i = 0; i < numberOfElements - 2; i++)
             {
                 myColl.Add(rand.Next(-50, 50));
             }
@@ -49,7 +49,7 @@ namespace c_sharp_core_ppt5_task5_2
 
             //find and print all positions of element '-10' in the collection
             Console.Write("\nPositions of element -10 in the collection: ");
-            for (int i = 0; i<myColl.Count; i++)
+            for (int i = 0; i < myColl.Count; i++)
             {
                 if (myColl[i] == -10)
                 {
@@ -78,7 +78,7 @@ namespace c_sharp_core_ppt5_task5_2
             Console.WriteLine();
 
             //sort collection 
-            myColl.Sort ();
+            myColl.Sort();
 
             //print all elements from collection
             Console.WriteLine("\nSorted collection: ");

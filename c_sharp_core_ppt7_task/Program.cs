@@ -7,8 +7,8 @@ namespace c_sharp_core_ppt7_task
     {
         static void Main(string[] args)
         {
-            string readPath = @"/Users/sofiiageletukha/Desktop/Coding/SETtest/hw/hw5/c_sharp_core/c_sharp_core_ppt7_task/data.txt";
-            string writePath = @"/Users/sofiiageletukha/Desktop/Coding/SETtest/hw/hw5/c_sharp_core/c_sharp_core_ppt7_task/rez.txt";
+            string readPath = @"/Users/sofiiageletukha/Desktop/Coding/SETtest/hw/hw5/c_sharp_core/c_sharp_core_ppt7_task/txt/data.txt";
+            string writePath = @"/Users/sofiiageletukha/Desktop/Coding/SETtest/hw/hw5/c_sharp_core/c_sharp_core_ppt7_task/txt/rez.txt";
             string text = "";
             try
             {
@@ -22,7 +22,7 @@ namespace c_sharp_core_ppt7_task
                 using (StreamWriter sw = new StreamWriter(writePath, true, System.Text.Encoding.Default))
                 {
                     sw.WriteLine("\nMore text More text More text");
-                    sw.WriteLine (" 1234 " + 1234 + " 1234 ");
+                    sw.WriteLine(" 1234 " + 1234 + " 1234 ");
                 }
 
                 string addText = "WriteAllText WriteAllText WriteAllText" + 5678 + " Five Six Seven Eight";

@@ -1,14 +1,14 @@
 ﻿using System;
 namespace c_sharp_core_ppt5_hw
 {
-    public class Programmer: IDeveloper, IComparable
+    public class Programmer : IDeveloper, IComparable
     {
         private string language;
         private string tool;
         private static int programmerCounter;
         private int programmerNumber;
 
-        public string Tool {get; set;}
+        public string Tool { get; set; }
 
         public int Counter { get; set; }
 

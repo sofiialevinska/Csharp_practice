@@ -1,7 +1,7 @@
 ﻿using System;
 namespace c_sharp_core_ppt8_task
 {
-    public class Person: IComparable
+    public class Person : IComparable
     {
         private string name;
         private int salary;
@@ -12,7 +12,7 @@ namespace c_sharp_core_ppt8_task
         {
             this.name = name;
         }
-        public virtual void Print ()
+        public virtual void Print()
         {
             Console.WriteLine("Name: {0}", this.name);
         }

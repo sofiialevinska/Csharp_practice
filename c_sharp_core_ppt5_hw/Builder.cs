@@ -1,7 +1,7 @@
 ﻿using System;
 namespace c_sharp_core_ppt5_hw
 {
-    public class Builder: IDeveloper, IComparable
+    public class Builder : IDeveloper, IComparable
     {
         private string tool;
         public string Tool
@@ -19,7 +19,7 @@ namespace c_sharp_core_ppt5_hw
             builderNumber = builderCounter;
             Counter = builderCounter;
         }
-        public void Create ()
+        public void Create()
         {
             Console.WriteLine("Builder{0} is created. Tool is {1}.", builderNumber, tool);
         }

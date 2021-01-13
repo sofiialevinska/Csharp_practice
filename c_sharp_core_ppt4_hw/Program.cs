@@ -25,13 +25,13 @@ namespace c_sharp_core_ppt4_hw
             char offsetLower = 'a';
             char offsetUpper = 'A';
             const int lettersOffset = 26;
-            for (int i = 0; i < persons.Length-3; i++)
+            for (int i = 0; i < persons.Length - 3; i++)
             {
                 builder.Clear();
                 for (var j = 0; j < nameSize; j++)
                 {
                     char @char;
-                    if (j==0)
+                    if (j == 0)
                     {
                         @char = (char)rand.Next(offsetUpper, offsetUpper + lettersOffset);
                     }
@@ -76,13 +76,13 @@ namespace c_sharp_core_ppt4_hw
 
             //Find and output information about Persons with the same names(use ==)
             Console.WriteLine("\nPersons with the same names:\n");
-            for (int i = 0; i < persons.Length-1; i++)
+            for (int i = 0; i < persons.Length - 1; i++)
             {
-                for (int j = i+1; j < persons.Length; j++)
+                for (int j = i + 1; j < persons.Length; j++)
                 {
-                    if (persons[i] == persons [j])
+                    if (persons[i] == persons[j])
                     {
-                        Console.WriteLine ("Person{0} == Person{1}", i+1, j+1);
+                        Console.WriteLine("Person{0} == Person{1}", i + 1, j + 1);
                         persons[i].Output();
                         persons[j].Output();
                     }

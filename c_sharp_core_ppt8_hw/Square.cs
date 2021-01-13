@@ -1,10 +1,10 @@
 ﻿using System;
 namespace c_sharp_core_ppt8_hw
 {
-    public class Square: Shape
+    public class Square : Shape
     {
         private double side;
-        public Square (string name, double side) : base(name)
+        public Square(string name, double side) : base(name)
         {
             this.side = side;
         }

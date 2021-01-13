@@ -1,10 +1,10 @@
 ﻿using System;
 namespace c_sharp_core_ppt8_task
 {
-    public class Teacher: Staff
+    public class Teacher : Staff
     {
         protected string subject;
-        public Teacher(string name, string subject, int salary) : base (name, salary)
+        public Teacher(string name, string subject, int salary) : base(name, salary)
         {
             this.subject = subject;
         }
