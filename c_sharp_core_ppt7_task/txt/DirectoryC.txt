@@ -29,7 +29,7 @@ Folder's Size: 38609  bytes
 /Users/sofiiageletukha/Desktop/Coding/SETtest/hw/hw5/c_sharp_core/.vs
 Folder's Name: .vs
 Folder's Creation Time: 1/11/2021 3:45:39 PM
-Folder's Size: 293422  bytes
+Folder's Size: 293461  bytes
 
 /Users/sofiiageletukha/Desktop/Coding/SETtest/hw/hw5/c_sharp_core/c_sharp_core_ppt5_hw
 Folder's Name: c_sharp_core_ppt5_hw
@@ -49,7 +49,7 @@ Folder's Size: 83056  bytes
 /Users/sofiiageletukha/Desktop/Coding/SETtest/hw/hw5/c_sharp_core/c_sharp_core_ppt5_task5_2
 Folder's Name: c_sharp_core_ppt5_task5_2
 Folder's Creation Time: 1/10/2021 5:11:15 PM
-Folder's Size: 128520  bytes
+Folder's Size: 45368  bytes
 
 /Users/sofiiageletukha/Desktop/Coding/SETtest/hw/hw5/c_sharp_core/c_sharp_core_ppt4_hw
 Folder's Name: c_sharp_core_ppt4_hw
@@ -59,26 +59,20 @@ Folder's Size: 135255  bytes
 /Users/sofiiageletukha/Desktop/Coding/SETtest/hw/hw5/c_sharp_core/c_sharp_core_ppt4_tasks
 Folder's Name: c_sharp_core_ppt4_tasks
 Folder's Creation Time: 1/7/2021 6:45:12 PM
-Folder's Size: 50117  bytes
+Folder's Size: 133269  bytes
 
 /Users/sofiiageletukha/Desktop/Coding/SETtest/hw/hw5/c_sharp_core/.git
 Folder's Name: .git
 Folder's Creation Time: 1/7/2021 6:43:12 PM
-Folder's Size: 185579  bytes
+Folder's Size: 189043  bytes
 
 /Users/sofiiageletukha/Desktop/Coding/SETtest/hw/hw5/c_sharp_core/c_sharp_core_ppt7_task
 Folder's Name: c_sharp_core_ppt7_task
 Folder's Creation Time: 1/12/2021 10:03:31 AM
-Folder's Size: 56819  bytes
+Folder's Size: 56821  bytes
 
 
 Files of folder c_sharp_core:
-
-/Users/sofiiageletukha/Desktop/Coding/SETtest/hw/hw5/c_sharp_core/.DS_Store
-File's Name: .DS_Store
-File's Creation Time: 1/13/2021 10:07:37 AM
-File's Type: .DS_Store
-File's Size: 6148 bytes
 
 /Users/sofiiageletukha/Desktop/Coding/SETtest/hw/hw5/c_sharp_core/c_sharp_core.sln
 File's Name: c_sharp_core.sln

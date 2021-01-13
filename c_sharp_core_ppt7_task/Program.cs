@@ -82,7 +82,7 @@ namespace c_sharp_core_ppt7_task
                         string[] subFolders = Directory.GetDirectories(folderName);
                         foreach (string subFolder in subFolders)
                         {
-                            sw.WriteLine("\n"+subFolder);
+                            sw.WriteLine("\n" + subFolder);
                             DirectoryInfo subFolderInfo = new DirectoryInfo(subFolder);
                             sw.WriteLine($"Folder's Name: {subFolderInfo.Name}");
                             sw.WriteLine($"Folder's Creation Time: {subFolderInfo.CreationTime}");
